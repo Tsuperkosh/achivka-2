@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
@@ -53,12 +47,5 @@ def process_number():
 
 
 
-#if __name__ == '__main__':
+if __name__ == '__main__':
 app.run(debug=True, port=5000)
-
-
-# In[ ]:
-
-
-
-
